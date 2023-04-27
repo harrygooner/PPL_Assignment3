@@ -1,0 +1,8 @@
+a: array [2, 2, 1] of auto = {{{1.5},{2.5}}, {{--1.5},{-4.5}}};
+        c: array [2, 1] of integer = a[0];
+        main: function void () {
+            if (!!(c[0, 0] > 5)) {
+                b: integer = a[1,1,0];
+            }    
+            c: auto = 4;
+        }

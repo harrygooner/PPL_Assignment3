@@ -1,0 +1,5 @@
+a: array [2, 2, 1] of auto = {{{1},{2}}, {{1},{4}}};
+        c: array [2, 1] of integer = a[0];
+        b: integer = a[1,1,0];
+        c: auto = 4;
+        main: function void () {}

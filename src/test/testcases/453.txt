@@ -1,0 +1,8 @@
+a: boolean = true;
+        func1: function auto (d: integer, c: integer) inherit func0 {
+            e: float = readFloat();
+            super(c, "string");
+        }
+        func0: function void (inherit a: integer, inherit b: integer) {}
+        main: function void () {}
+        

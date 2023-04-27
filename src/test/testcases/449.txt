@@ -1,0 +1,9 @@
+a: array [2, 2, 1] of auto = {{{1.5},{2.5}}, {{--(1.5+2.5)},{-4.5}}};
+        test: function auto (a: auto, b: integer) {}
+        main: function void () {
+            d: integer = test(a[0,0,0], 5);
+            c: auto = !(d < -5);
+            if (c) {
+                a: boolean = test(5, 0);
+            }
+        }
